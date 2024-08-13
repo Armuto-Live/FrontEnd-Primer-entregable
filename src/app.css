@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+    color: #fff;
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    color: #ff3639;
+    text-transform: uppercase;
+}
