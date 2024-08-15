@@ -8,6 +8,63 @@ body{
 .title{
     font-size: 2rem;
     text-align: center;
-    color: #ff3639;
+    color: #7df1cf;
     text-transform: uppercase;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.form{
+    width: 350px;
+    height: 200px;
+    background-color: #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0 .5rem;
+    border-radius: .3rem;
+}
+.error{
+    color: #ff3639;
+    text-align: center;
+}
+
+.card{
+    border: thin solid #ddd;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.card_resultado{
+    text-align: center;
+    color: #7df1cf;
+}
+.boton_guardar{
+    padding: 0 1rem;
+    height: 50px;
+    background-color: #fff;
+    color: #000000;
+    border: 2px solid #7df1cf;
+    border-radius: .3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.boton_guardar:hover{
+    background-color: #7df1cf;
+    color: #000;
+    border: none;
 }

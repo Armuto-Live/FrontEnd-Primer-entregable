@@ -1,1 +1,5 @@
+export { Header } from './Header'
 export { Card } from './Card'
+export { Form } from './Form'
+export { InputForm } from './InputForm'
+export { BotonGuardar } from './BotonGuardar'
